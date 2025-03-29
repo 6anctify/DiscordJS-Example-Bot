@@ -18,20 +18,16 @@ This guide will walk you through the process of setting up the Discord bot from 
 1. Ensure you have [Node.js](https://nodejs.org/) installed (version 16.9.0 or higher is recommended for Discord.js v14).
 2. Clone or download the bot's codebase to your local machine.
 3. Open a terminal and navigate to the bot's root directory:
-    ```bash
-    cd c:/Users/You/Desired/Path
-    ```
 
----
+> cd c:/Users/You/Desired/Path
+
+
 
 ## 3. **Install Dependencies**
 
 Run the following command to install the required dependencies:
-```bash
-npm install
-```
 
----
+> npm install
 
 ## 4. **Configure Environment Variables**
 
@@ -51,22 +47,21 @@ npm install
 ## 5. **Register Commands**
 
 To register the bot's commands with Discord, run the following command:
-```bash
-node commands/sync.js
-```
+
+> node commands/sync.js
+
 - This will register both global and guild-specific commands.
 
----
 
 ## 6. **Start the Bot**
 
 Run the following command to start the bot:
-```bash
-node src/index.js
-```
+
+> node src/index.js
+
 - If everything is set up correctly, you should see a message in the terminal: `Bot logged in!`
 
----
+
 
 ## 7. **Invite the Bot to Your Server**
 
@@ -78,21 +73,19 @@ node src/index.js
 4. Copy the generated URL and paste it into your browser.
 5. Select your server and click **"Authorize"**.
 
----
+
 
 ## 8. **Test the Bot**
 
 - Use the `/avatar` command (or any other command you’ve implemented) in your server to test the bot.
 - Check the terminal for logs to ensure the bot is functioning correctly.
 
----
+
 
 ## 9. **Optional: Add More Features**
 
 - Add more commands by creating new files in the `commands/globalCommands` or `commands/guildCommands` directories.
 - Add event handlers in the `events` directory.
 - Add button handlers in the `buttonHandlers` directory.
-
----
 
 Congratulations! Your Discord bot is now set up and running.
