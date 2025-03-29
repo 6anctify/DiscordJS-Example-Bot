@@ -2,8 +2,6 @@
 
 This guide will walk you through the process of setting up the Discord bot from scratch, including creating the bot on the Discord Developer Portal, installing dependencies, and running the bot.
 
----
-
 ## 1. **Create a Discord Bot**
 
 1. Go to the [Discord Developer Portal](https://discord.com/developers/applications).
@@ -14,7 +12,6 @@ This guide will walk you through the process of setting up the Discord bot from 
 6. Under the **"Token"** section, click **"Reset Token"** and copy the token.  
     > **Important:** Keep this token private. Do not share it with anyone.
 
----
 
 ## 2. **Set Up Your Local Environment**
 
@@ -22,7 +19,7 @@ This guide will walk you through the process of setting up the Discord bot from 
 2. Clone or download the bot's codebase to your local machine.
 3. Open a terminal and navigate to the bot's root directory:
     ```bash
-    cd c:/Users/db180/Documents/DiscordBotExample
+    cd c:/Users/You/Desired/Path
     ```
 
 ---
