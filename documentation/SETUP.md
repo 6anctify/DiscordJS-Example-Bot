@@ -10,7 +10,7 @@ This guide will walk you through the process of setting up the Discord bot from 
 4. Navigate to the **"Bot"** tab on the left sidebar.
 5. Click **"Add Bot"** and confirm.
 6. Under the **"Token"** section, click **"Reset Token"** and copy the token.  
-    > **Important:** Keep this token private. Do not share it with anyone.
+    > **Important:** Keep this token private. Do not share it with anyone. Sharing it will enable people to do ANYTHING on your bot's behalf.
 
 
 ## 2. **Set Up Your Local Environment**
@@ -19,7 +19,7 @@ This guide will walk you through the process of setting up the Discord bot from 
 2. Clone or download the bot's codebase to your local machine.
 3. Open a terminal and navigate to the bot's root directory:
 
-> cd c:/Users/You/Desired/Path
+> cd C:/Users/You/Desired/Path
 
 
 
