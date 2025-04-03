@@ -31,7 +31,7 @@ Run the following command to install the required dependencies:
 
 ## 4. **Configure Environment Variables**
 
-1. Rename the `.env` file in the root directory if it doesn't already exist.
+1. Create the `.env` file in the root directory if it doesn't already exist.
 2. Open the `.env` file and replace the placeholders with your bot's credentials:
     ```
     DISCORD_TOKEN=YOUR_DISCORD_TOKEN
