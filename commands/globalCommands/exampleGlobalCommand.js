@@ -1,5 +1,5 @@
 // This command returns the avatar of the specified user.
-// Guild-specific command example
+// Global command example
 
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 
